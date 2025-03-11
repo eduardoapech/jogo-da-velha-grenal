@@ -116,23 +116,23 @@ class GameScreenState extends State<GameScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // Dropdown para selecionar dificuldade
-              DropdownButton<AIDifficulty>(
-                value: _selectedDifficulty,
-                onChanged: (AIDifficulty? newValue) {
-                  if (newValue != null) {
-                    _changeDifficulty(newValue);
-                  }
-                },
-                items:
-                    AIDifficulty.values.map((AIDifficulty level) {
-                      return DropdownMenuItem<AIDifficulty>(
-                        value: level,
-                        child: Text(
-                          level.toString().split('.').last.toUpperCase(),
-                        ),
-                      );
-                    }).toList(),
-              ),
+              // DropdownButton<AIDifficulty>(
+              //   value: _selectedDifficulty,
+              //   onChanged: (AIDifficulty? newValue) {
+              //     if (newValue != null) {
+              //       _changeDifficulty(newValue);
+              //     }
+              //   },
+              //   items:
+              //       AIDifficulty.values.map((AIDifficulty level) {
+              //         return DropdownMenuItem<AIDifficulty>(
+              //           value: level,
+              //           child: Text(
+              //             level.toString().split('.').last.toUpperCase(),
+              //           ),
+              //         );
+              //       }).toList(),
+              // ),
               const SizedBox(height: 20),
 
               // Placar Responsivo
