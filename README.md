@@ -25,5 +25,5 @@ Este é um jogo da velha simples implementado em Flutter, com funcionalidades de
 
 Aqui estão algumas telas do jogo:
 
-<img src="assets/print1.jpeg" height="300"/>
-<img src="assets/print2.jpeg" height="300"/>
+<img src="assets/print1.jpeg" height="600"/>
+<img src="assets/print2.jpeg" height="600"/>
